@@ -1,0 +1,188 @@
+
+body {
+    font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: url("img/taustapilt.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0b0e12;
+
+
+}
+
+nav {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    height: auto !important;
+    text-align: center;
+
+
+}
+
+.navbar.navbar-collapse {
+    text-align: center;
+}
+
+.container.nav {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.container.us {
+    margin-top: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.container.avaleht {
+    margin-top: 13%;
+
+}
+
+.container.contact {
+    margin-top: 13%;
+
+}
+
+.container.tabel {
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    margin-top: 500px;
+    width: 100%;
+    background-color: #0b0e12;
+}
+
+
+.nav-link {
+    color: #676666 !important;
+}
+
+.nav-link:hover {
+    color: #efefef !important;
+}
+
+.nav-link.active {
+    color: #efefef !important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logopicture {
+        width: 80px;
+        height: 80px;
+    }
+
+    .container.us {
+        margin-top: 10px;
+        padding-top: 100px;
+
+    }
+
+}
+
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    color: #efefef;
+}
+
+h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    color: #efefef;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #efefef;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    color: #efefef;
+}
+
+button {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    position: inherit;
+
+}
+
+.container.avaleht button {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    position: inherit;
+    background-color: rgba(12, 30, 32, 0.5);
+    color: red !important;
+
+}
+
+.container.avaleht.sots {
+    opacity: 0.1;
+}
+
+.container.danid {
+    position: absolute;
+    left: 42%
+}
+
+button:hover {
+    background-color: #0c1e20 !important;
+    color: red !important;
+}
+
+.direct-contact-container {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    padding-top: 12%;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.footer_push {
+    height: 75px;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+}
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.9);
+    color: #efefef;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
